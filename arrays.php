@@ -29,6 +29,8 @@ echo"<br><br>";
 // Execute the function that allows to obtain the length of an array
 
 
+echo count($arrayStrings);
+
 // Execute the function that allows to obtain the combination of two arrays
 print_r(array_merge($arrayStrings,$arrayNumbers));
 echo"<br><br>";
